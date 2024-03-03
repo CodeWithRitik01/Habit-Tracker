@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import DetailView from './components/DetailView/DetailView';
+import { useEffect } from 'react';
+import WeekView from './components/WeekView/WeekView';
+import AddHabit from './components/AddHabit/AddHabit';
 
 function App() {
+
+  const router = createBrowserRouter([
+    {path:'/', 
+   element:<Navbar />,
+    children:[
+      {index:true, element: <DetailView />},
+      {path:"weekView", element:<WeekView />},
+      {path:"addHabit", element:<AddHabit />}
+    ]}
+  ])
+
+  const date = new Date()
+  useEffect(()=>{
+    console.log(date.getDay());
+  })
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <RouterProvider router={router} />
     </div>
   );
 }

@@ -1,0 +1,35 @@
+.outAdd{
+   display: grid;
+   justify-content: center;
+   margin-top: 7%;
+   border: 1px solid wheat;
+   position: relative;
+   left: 35%;
+   width: 30%;
+   padding:20px;
+   background-image: linear-gradient(to right, rgb(20, 1, 87), rgb(1, 3, 17));
+   box-shadow: 0px 10px 10px 0 gray;
+}
+
+.outAdd h1{
+    text-align: center;
+}
+
+.addForm{
+    display: grid;
+}
+
+.addForm input{
+    width: 300px;
+    height: 30px;
+    margin-bottom:20px;
+    border-radius: 10px;
+}
+
+.addForm button{
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, rgba(255, 255, 0, 0.785), rgb(62, 62, 62));
+    margin-left: 90px;
+}

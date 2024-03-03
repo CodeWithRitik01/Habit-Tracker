@@ -1,0 +1,48 @@
+.outNav{
+    height: 7vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, black 0%,rgb(62, 62, 92) 20%, black 120%  );
+    display: flex;
+    align-items: center;
+}
+
+.barImg{
+    height: 4vh;
+    width: 3vw;
+    margin:10px;
+    cursor: pointer;
+}
+
+h2{
+    margin-left: 40px;
+    color: rgb(211, 201, 188);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    margin: 0;
+}
+
+.toggle{
+    position: absolute;
+    right: 5%;
+    height: 6vh;
+    width: 3vw;
+    margin-top: -20px;
+}
+
+.toggle:hover{
+background-color: gray;
+cursor: pointer;
+}
+
+.calImg{
+    position: fixed;
+    right:15%;
+}
+
+.dateString{
+    position: fixed;
+    right:20%;
+}

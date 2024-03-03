@@ -1,0 +1,75 @@
+.outWeek{
+    display: grid;
+    justify-content: center;
+}
+
+.topDate{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    height: 50px;
+    border: 1px solid wheat;
+    padding-top: 10px;
+    border-left: 0px;
+    border-right: 0px;
+    box-shadow: 0px 5px 10px 0px  wheat ;
+    width: 95vw;
+
+}
+
+.topDate h2{
+    margin:0px;
+}
+
+.detailOut{
+    height: 100px;
+    width: 80vw;
+    justify-self: center;
+    margin: 20px;
+    display: flex;
+    box-shadow: 0px 5px 10px 0px  wheat ;
+
+}
+
+.detailLeft{
+   width: 200px;
+   background-color: black;
+   padding-left: 10px;
+}
+
+.detailLeft h3{
+    color: rgba(255, 255, 0, 0.785);
+}
+
+.detailRight{
+   width: 84%;
+   background-image: linear-gradient(to right, rgb(20, 1, 87), rgb(1, 3, 17));
+   display: flex;
+   border-top: 1px solid wheat;
+}
+
+.detailRight img{
+    position: relative;
+    right:-20%;
+    top:30%;
+}
+
+.daysDiv{
+    margin:10px;
+    margin-right: 60px;
+}
+
+.daysDiv h4{
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-left:4px;
+    /* color: rgb(6, 131, 173); */
+}
+
+.currentDay{
+    color: rgb(165, 2, 2);
+}
+
+.otherDays{
+    color: rgb(6, 131, 173);
+}
