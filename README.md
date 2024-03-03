@@ -16,14 +16,20 @@ This project is a simple habit tracker application built using React and Redux. 
 
 # Technologies Used
 1.React.js
+
 2.Redux
+
 3.React Router
 
 # Usage
 1.On the homepage, you will see a list of all current habits being tracked.
+
 2.To add a new habit, click on the "Add Habit" button and fill out the form.
+
 3.Click on right-top corner toggle button to view their details.
+
 4.In the habit week view, you can see the status of the habit for the  7 days.
+
 5.You can mark today's habit status and change the status for previous days by clicking on the respective buttons.
 
 Credits
