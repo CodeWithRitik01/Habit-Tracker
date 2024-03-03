@@ -3,10 +3,15 @@ This project is a simple habit tracker application built using React and Redux. 
 
 # Features
 1.Add multiple habits to track, such as reading a book, going to the gym, etc.
+
 2.Track each habit every day with statuses: Done, Not done, or None.
+
 3.Add habits with an option to add new habits.
+
 4.Detailed view for each habit displaying the status of the habit for the 7 days.
+
 5.Ability to mark today's habit status and change status for previous days.
+
 6.Toggle between the three statuses of a habit: Done, Not done, or None.
 
 # Technologies Used
