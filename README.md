@@ -35,5 +35,6 @@ This project is a simple habit tracker application built using React and Redux. 
 # Hosted Project
 Link to Hosted project = ("https://resonant-gelato-e9ff07.netlify.app/")
 
-Credits
+## Credits
+
 This project was created by [Ritik].
