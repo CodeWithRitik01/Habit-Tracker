@@ -32,5 +32,8 @@ This project is a simple habit tracker application built using React and Redux. 
 
 5.You can mark today's habit status and change the status for previous days by clicking on the respective buttons.
 
+# Hosted Project
+Link to Hosted project = ("https://resonant-gelato-e9ff07.netlify.app/")
+
 Credits
 This project was created by [Ritik].
